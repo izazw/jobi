@@ -13,7 +13,7 @@ return (
       onClick = {() => {setShowJobDescription(true)}}
       >
          {props.jobDescription.jobTitle}
-         {setShowJobDescription ? <JobDescription/> : null}
+         {showJobDescription ? <JobDescription/> : null}
       </li>
    </>
 )
