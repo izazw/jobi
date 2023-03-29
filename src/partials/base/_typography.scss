@@ -1,1 +1,19 @@
 @use "../abstracts/variables" as*;
+
+
+
+@font-face {
+   font-family: "Gordita";
+   src: local("Gordita Regular"), url("../../fonts/Gordita\ Regular.otf") format("opentype");
+   font-weight: normal;
+}
+
+
+html {
+   font-size: 125%;
+}
+
+.special-h {
+   font-family: 'EB Garamond', serif;
+}
+

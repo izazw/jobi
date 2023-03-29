@@ -1,8 +1,13 @@
 import './App.scss';
+
+//fonts
+import "./fonts/Gordita Black.otf"
 import { useEffect, useState } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
+import { Routes, Route } from 'react-router';
 import firebase  from "./firebase";
 import HomePage from './Pages/HomePage';
+
 
 
 function App() {
@@ -27,23 +32,16 @@ function App() {
     })
   }, [])
 
+  
 
   return (
     <div className="App">
-    Jobi
-      <ul>
-        {jobs.map((job) => {
-                  console.log(job.key)
-          return (
     
-                <HomePage 
-                jobDescription = {job}
-                key = {job.key} />
-          )
-        }
-      )}
-        
-      </ul>
+    <Routes>
+      <Route path="/" element={ <HomePage/> } />
+      <Route path="/"/>
+      
+    </Routes>
     </div>
   );
 }
