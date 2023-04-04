@@ -5,12 +5,12 @@ import logo  from "../partials/assets/logo.svg";
 function TopNav () {
 
    return (
-      <nav className="wrapper">
+      <nav className="wrapper top-nav">
          <div className="logo-container">
             <img src={logo} alt="Jobi logo, two overlapping circles"/>
             <p className="logo">jobi</p>
          </div>
-         <div>
+         <div className="navbar-container">
             <ul>
                <li>
                   <Link to="/">home</Link>
@@ -26,10 +26,10 @@ function TopNav () {
                </li>
             </ul>
          </div>
-         <div>
+         <div className="nav-additions-container">
             <ul>
-               <li>Login/sign up</li>
-               <li>Post a job</li> 
+               <li className="special-white-li">Login/sign up</li>
+               <li className="special-green-li">Post a job</li> 
             </ul>
          </div>
       </nav>

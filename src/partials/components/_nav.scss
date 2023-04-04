@@ -1,4 +1,44 @@
-nav {
-   display: flex;
+@use "../abstracts/variables" as*;
 
+.top-nav {
+   display: flex;
+   justify-content: space-between;
+   width: 100%; 
+   margin: 45px;
+   .logo-container {
+      display: flex;
+      img {
+         height: 2rem;
+         display: block;
+         width: 50%;
+      }
+      p {
+         width: 50%;
+      }
+   }  
+   .navbar-container ul {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0;
+      li {
+         display: block;
+         margin-left: 15px;
+         margin-right: 15px;
+      }
+   }
+   .nav-additions-container ul{
+      display: flex;
+      margin: 15px;
+      li {
+         border-radius: 100px;
+         padding: 7px 25px;
+      }
+      .special-white-li {
+         border: red 1px solid;
+      }
+      .special-green-li {
+        background-color: $accent;
+
+      }
+   }
 }
