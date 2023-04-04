@@ -13,6 +13,12 @@ html {
    font-size: 125%;
 }
 
+//homepage
+
+.top-nav {
+   text-transform: capitalize;
+}
+
 .special-font {
    font-family: 'EB Garamond', serif;
 }
@@ -20,6 +26,7 @@ html {
 .logo {
    font-family: 'EB Garamond', serif;
    font-size: 1.5rem;
+   text-transform: lowercase;
 }
 
 
