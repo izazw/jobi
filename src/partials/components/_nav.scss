@@ -4,9 +4,10 @@
    display: flex;
    justify-content: space-between;
    width: 100%; 
-   margin: 45px;
+   margin-top: 45px;
    .logo-container {
       display: flex;
+      align-items: center;
       img {
          height: 2rem;
          display: block;
@@ -24,11 +25,11 @@
          display: block;
          margin-left: 15px;
          margin-right: 15px;
+         padding: 7px 0;
       }
    }
    .nav-additions-container ul{
       display: flex;
-      margin: 15px;
       li {
          border-radius: 100px;
          padding: 7px 25px;
@@ -37,7 +38,7 @@
          border: red 1px solid;
       }
       .special-green-li {
-        background-color: $accent;
+        background-color: $green-regular;
 
       }
    }
