@@ -1,7 +1,7 @@
 import './App.scss';
 
 //fonts
-import "./fonts/Gordita Black.otf"
+import "./fonts/GorditaRegular.otf"
 import { useEffect, useState } from "react";
 import { getDatabase, ref, onValue } from "firebase/database";
 import { Routes, Route } from 'react-router';

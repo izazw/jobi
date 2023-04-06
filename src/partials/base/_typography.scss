@@ -4,7 +4,7 @@
 
 @font-face {
    font-family: "Gordita";
-   src: local("Gordita Regular"), url("../../fonts/Gordita\ Regular.otf") format("opentype");
+   src: local("Gordita Regular"), url("../../fonts/GorditaRegular.otf"), format("opentype");
    font-weight: normal;
 }
 
@@ -13,10 +13,17 @@ html {
    font-size: 125%;
 }
 
+a {
+   color: $black;
+}
 //homepage
 
 .top-nav {
    text-transform: capitalize;
+   color: $white;
+   a {
+      color: $white;
+   }
 }
 
 .special-font {
@@ -29,5 +36,11 @@ html {
    text-transform: lowercase;
 }
 
+.homepage nav {
+   color: $white;
+}
 
-
+//components
+header {
+   color: white;
+}
