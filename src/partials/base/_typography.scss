@@ -16,13 +16,25 @@ html {
 a {
    color: $black;
 }
+
+h1 {
+   font-size: 3.5rem;
+   font-weight: 600;
+}
+
+h2 {
+   font-size: 1rem;
+   font-weight: 400;
+}
 //homepage
 
 .top-nav {
-   text-transform: capitalize;
    color: $white;
    a {
       color: $white;
+   }
+   .navbar-container {
+      text-transform: capitalize;
    }
 }
 
