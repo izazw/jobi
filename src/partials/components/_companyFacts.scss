@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as*;
+
+.company-facts-container {
+   display: flex;
+   justify-content: space-between;
+   div {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+}
