@@ -1,7 +1,7 @@
-function JobDescription (props) {
+function JobDescription () {
    
 
-   console.log(props)
+   console.log()
    return (
       <p> It's job description!</p>
    )

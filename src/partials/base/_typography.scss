@@ -1,1 +1,58 @@
 @use "../abstracts/variables" as*;
+
+
+
+@font-face {
+   font-family: "Gordita";
+   src: local("Gordita Regular"), url("../../fonts/GorditaRegular.otf"), format("opentype");
+   font-weight: normal;
+}
+
+
+html {
+   font-size: 125%;
+}
+
+a {
+   color: $black;
+}
+
+h1 {
+   font-size: 3.5rem;
+   font-weight: 600;
+}
+
+h2 {
+   font-size: 1rem;
+   font-weight: 400;
+}
+//homepage
+
+.top-nav {
+   color: $white;
+   a {
+      color: $white;
+   }
+   .navbar-container {
+      text-transform: capitalize;
+   }
+}
+
+.special-font {
+   font-family: 'EB Garamond', serif;
+}
+
+.logo {
+   font-family: 'EB Garamond', serif;
+   font-size: 1.5rem;
+   text-transform: lowercase;
+}
+
+.homepage nav {
+   color: $white;
+}
+
+//components
+header {
+   color: white;
+}

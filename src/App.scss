@@ -6,7 +6,11 @@
 @use "./partials/base/typography";
 
 //components
-//pages 
+@use "./partials/components/nav";
+@use "./partials/components/header";
+
+//pages
+@use "./partials/pages/hompepage"; 
 
 //media queries
 @use "./partials/abstracts/mediaqueries";
